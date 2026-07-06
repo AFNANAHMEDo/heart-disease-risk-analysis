@@ -1,49 +1,43 @@
-# ❤️ Heart Disease Risk Analysis
 
-A machine learning project that analyzes patient health data to predict the likelihood of heart disease. This project uses the Cleveland Heart Disease dataset from the UCI Machine Learning Repository and compares multiple classification algorithms to identify the best-performing model.
 
----
+Heart Disease Risk Analysis
 
-## 📌 Project Overview
+Heart disease risk analysis is done using patient health information. It makes use of the Cleveland Heart Disease dataset available on the UCI Machine Learning Repository. Several classification techniques have been tried to determine the best performing one.
 
-Heart disease is one of the leading causes of death worldwide. Early prediction can help doctors make informed decisions and improve patient care.
+Project Overview
 
-In this project, I performed a complete machine learning workflow, including:
+Heart disease is one of the leading causes of mortality all over the world. Early prediction of heart disease improves decision-making for doctors.
 
-- Data cleaning and preprocessing
+I have done a complete machine learning process in this project that included:
+- Data cleaning and pre-processing
 - Exploratory Data Analysis (EDA)
-- Feature engineering
-- Training multiple machine learning models
-- Model evaluation and comparison
-- Final model selection
+- Feature Engineering
+- Training of various machine learning models
+- Model Evaluation
+- Selection of the best performing model
 
----
+Dataset
 
-## 📂 Dataset
+- Name of Dataset: UCI Cleveland Heart Disease Dataset
+- Total number of records: 303
+- Number of features: 13 clinical attributes
+- Target variable: Heart disease presence
 
-- **Dataset:** UCI Cleveland Heart Disease Dataset
-- **Records:** 303 patients
-- **Features:** 13 clinical attributes
-- **Target:** Presence or absence of heart disease
-
-The dataset contains patient information such as:
-
-- Age
-- Sex
-- Chest pain type
+Features include:
+- Patient age
+- Patient sex
+- Type of chest pain
 - Resting blood pressure
-- Cholesterol
-- Fasting blood sugar
-- Resting ECG
-- Maximum heart rate
-- Exercise-induced angina
-- ST depression
-- Number of major vessels
+- Cholesterol levels
+- Fasting blood sugar level
+- Resting electrocardiographic measurement
+- Maximum heart rate achieved
+- Exercise induced angina
+- ST depression induced by exercise relative to rest
+- Number of major vessels colored by fluoroscopy
 - Thalassemia
 
----
-
-## 🛠 Technologies Used
+Technologies Used
 
 - Python
 - Pandas
@@ -53,98 +47,68 @@ The dataset contains patient information such as:
 - Scikit-learn
 - Jupyter Notebook
 
----
+Project Workflow
 
-## 📊 Project Workflow
-
-1. Load and inspect the dataset
-2. Handle missing values
+1. Loading and inspection of dataset
+2. Handling any missing values
 3. Perform Exploratory Data Analysis (EDA)
-4. Visualize important patterns
-5. Prepare the data for modeling
-6. Train multiple machine learning models
-7. Compare model performance
-8. Select the best-performing model
-9. Draw final conclusions
+4. Visualization of important patterns
+5. Data preparation for modeling
+6. Training of various machine learning models
+7. Comparison of model performance
+8. Selecting the best performing model
+9. Drawing final conclusions
 
----
+Machine Learning Models
 
-## 🤖 Machine Learning Models
-
-The following classification models were trained and evaluated:
-
+The models that have been tried are:
 - Logistic Regression
 - Decision Tree
 - Random Forest
 - Support Vector Machine (SVM)
 - K-Nearest Neighbors (KNN)
 
-Performance was evaluated using metrics such as:
-
+Various evaluation metrics have been considered such as:
 - Accuracy
 - Precision
 - Recall
 - F1 Score
 - ROC-AUC Score
-- Confusion Matrix
+- Confusion matrix
 
----
+Repository Structure
 
-## 📁 Repository Structure
-
-```
 heart-disease-risk-analysis/
-│
-├── Heart_Disease_Modeling_Project.ipynb
-├── processed.cleveland.data
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
 
----
-
-## 🚀 Getting Started
-
-### Clone the repository
-
-```bash
-git clone https://github.com/AFNANAHMEDo/heart-disease-risk-analysis.git
-```
-
-### Navigate to the project
-
-```bash
-cd heart-disease-risk-analysis
-```
-
-### Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open:
-
-```
 Heart_Disease_Modeling_Project.ipynb
-```
+processed.cleveland.data
+requirements.txt
+LICENSE
+README.md
 
----
+Getting Started
 
-## 📈 Results
+Clone the repository:
+git clone https://github.com/AFNANAHMEDo/heart-disease-risk-analysis.git
+
+Change to the directory:
+cd heart-disease-risk-analysis
+
+Install requirements:
+pip install -r requirements.txt
+
+Run Jupyter Notebook:
+jupyter notebook
+
+Start working on:
+Heart_Disease_Modeling_Project.ipynb
+
+##  Results
 
 Different machine learning models were compared to determine which one performed best on the dataset. The notebook includes detailed evaluation metrics, visualizations, and comparisons that help explain each model's strengths and limitations.
 
----
 
-## 💡 Future Improvements
+## Future Improvements
 
 - Hyperparameter tuning
 - Feature selection techniques
@@ -159,9 +123,3 @@ Different machine learning models were compared to determine which one performed
 **Afnan Ahmed**
 
 GitHub: https://github.com/AFNANAHMEDo
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
